@@ -1,0 +1,47 @@
+.profile-card{
+    background-color: rgb(243, 224, 224);
+    width: 500px;
+    height: 500px;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgb(163, 155, 155);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 22px rgb(90, 84, 84);
+}
+
+.profile-pic {
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+h2{
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    margin-top: 20px;
+}
+.social-icons img {
+    width: 40px;
+}
+button{
+    background-color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-color: rgb(174, 123, 123);
+}
+button:hover{
+    background-color: rgb(152, 16, 16);
+    color: white;
+    border-color: rgb(92, 56, 56);
+}
