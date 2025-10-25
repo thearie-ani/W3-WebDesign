@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+            }
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box div{
+    color: white;
+    background-color: rgb(187, 197, 80);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 8px;
+    width: 100px;
+}
