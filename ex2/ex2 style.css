@@ -1,0 +1,58 @@
+body{
+    background-color: #bdc3c7;
+}
+h1{
+    text-align: center;
+    color: #9b59b6;
+    background-color: yellow;
+    border-radius: 3px;
+}
+h2{
+    color: orange;
+    background-color: yellow;
+    border-radius: 3px;
+}
+li{
+    color: rgb(9, 9, 106);
+    background-color: yellow;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.hello{
+    margin-bottom: 20px;;
+    margin-top: 20px;
+    background-color: white;
+}
+#special{
+    margin-top: 20px;
+    border: 2px solid blue;
+}
+div p{
+    font-size: 25px;
+}
+input[type="text"]::placeholder {
+    color: rgb(179, 179, 203);
+    background-color: #a00910;
+    opacity: 1;
+}
+input[type="checkbox"]:checked{
+    margin-left: 50px;
+}
+label[for="name"] {
+    margin-left: 200px;
+    text-transform: uppercase;
+}
+#speciallabel {
+    color: rgb(192, 75, 69);
+    font-size: 20px;
+    display: inline-block; 
+            }
+
+#speciallabel::first-letter {
+    color: green;
+    font-size: 100px;
+}
+.hover:hover{
+    color: blue;
+    background-color: white;
+}
