@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(211, 232, 225);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;;
+}
+div{
+    border: 3px solid rgb(188, 143, 150);
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(241, 187, 196);
+    border-radius: 25px;
+    width: 110px;
+}
+.hover:hover{
+    border-color: rgb(107, 5, 5);
+    background-color: rgb(226, 4, 52);
+    color: white;
+}
